@@ -1,1 +1,2 @@
-web: gunicorn autospares.wsgi
+web: gunicorn autospares.wsgi:application
+
